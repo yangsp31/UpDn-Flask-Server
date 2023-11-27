@@ -10,7 +10,6 @@ def scheculed_job() :
 
 @app.route('/Flask/realtimeData')
 def home() :
-    CL.get_all_news_titles()
     return RTC.RTCrawling()
 
 if __name__ == '__main__' :
